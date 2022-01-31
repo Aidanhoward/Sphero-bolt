@@ -21,6 +21,10 @@ async function startProgram() {
 	// Plays monkey sound and goes to red checkpoint
 
 	await Sound.Animal.Monkey.play(true)
+	await roll(25,-29,2);
+	setmainled({ r:255, g: 0, b: 0})
+	await roll(75,29,3);
+
 
 	
 }
